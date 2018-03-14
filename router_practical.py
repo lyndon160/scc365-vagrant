@@ -67,8 +67,8 @@ net.get('h4').setMAC('00:00:00:00:00:04')
 
 net.get('h1').cmd('route add default gw 10.0.1.1 h1-eth0; arp -s 10.0.1.1 00:00:00:00:00:10')
 net.get('h2').cmd('route add default gw 10.0.1.1 h2-eth0; arp -s 10.0.1.1 00:00:00:00:00:10')
-net.get('h3').cmd('route add default gw 10.0.2.1 h3-eth0; arp -s 10.0.2.1 00:00:00:00:00:20')
-net.get('h4').cmd('route add default gw 10.0.2.1 h4-eth0; arp -s 10.0.2.1 00:00:00:00:00:20')
+net.get('h3').cmd('route add default gw 10.0.2.1 h3-eth0; arp -s 10.0.2.1 00:00:00:00:00:40')
+net.get('h4').cmd('route add default gw 10.0.2.1 h4-eth0; arp -s 10.0.2.1 00:00:00:00:00:40')
 
 CLI( net )
 net.stop()
